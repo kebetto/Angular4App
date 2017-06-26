@@ -1,0 +1,16 @@
+li{border:1.2px solid #dce4ec; }
+.list-group{margin-bottom: 0px}
+.clickable{cursor:pointer}
+.titre{
+    color:#2c3e50; background-color:#dce4ec; 
+    border-color: #dce4ec; font-size:1.1em
+}
+.active_post{background-color:#dce4ec;
+          border-color: #dce4ec;} 
+li.clickable:hover{background-color:#dce4ec; border-color: #dce4ec;} 
+img{border-radius: 50%} 
+.comment{padding-top: 10px}
+.showingUserPosts{visibility: hidden;}
+.pagination li{
+    border:0;
+}
