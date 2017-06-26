@@ -20,6 +20,12 @@ declare var _: _.UnderscoreStatic;
             border-color: #ecf0f1; 
             color: #2c3e50;
         }
+        .info{
+         background: #2c3e50;
+        }
+        img{
+            border-radius: 50%
+        }
     `]
 })
 export class PostsComponent implements OnInit, OnDestroy {

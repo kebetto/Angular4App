@@ -13,3 +13,6 @@ li.clickable:hover{background-color:#dce4ec; border-color: #dce4ec;}
 .pagination li{
     border:0;
 }
+.info{
+    background: #2c3e50;
+}
