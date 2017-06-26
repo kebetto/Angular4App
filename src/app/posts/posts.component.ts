@@ -91,9 +91,10 @@ export class PostsComponent implements OnInit, OnDestroy {
     } 
     
 	onPageChanged(page : number) {
-      //displays the next 10 apges, if any
-      var startIndex = (page - 1) * this.pageSize;
-      this.pagedPosts = _.take(_.rest(this.posts, startIndex), this.pageSize);
+        this.currentPost = null;
+        //displays the next 10 apges, if any
+        var startIndex = (page - 1) * this.pageSize;
+        this.pagedPosts = _.take(_.rest(this.posts, startIndex), this.pageSize);
 	}
 
   ngOnDestroy() {
