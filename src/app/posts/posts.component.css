@@ -8,7 +8,6 @@ li{border:1.2px solid #dce4ec; }
 .active_post{background-color:#dce4ec;
           border-color: #dce4ec;} 
 li.clickable:hover{background-color:#dce4ec; border-color: #dce4ec;} 
-img{border-radius: 50%} 
 .comment{padding-top: 10px}
 .showingUserPosts{visibility: hidden;}
 .pagination li{
