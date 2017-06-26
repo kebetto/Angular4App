@@ -22,7 +22,7 @@ import { Component } from '@angular/core';
     </div>
   </nav>
   `,
-  styles:['.active-link{background-color: #000}' +
+  styles:['a.navbar-brand.active-link{background: #000}' +
            'nav{position:fixed; top: 0px; width: 100%; z-index: 100}']
 })
 export class NavBarComponent  { }
