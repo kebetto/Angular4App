@@ -22,8 +22,8 @@ const appRoutes: Routes = [
     //canActivate: [AuthGard]
   },
   
-  { path: '', component: HomeComponent }, 
-  { path: '**', redirectTo: 'posts', pathMatch: 'full' }
+  { path: '', redirectTo: '/home', pathMatch: 'full'  }, 
+  { path: '**', component: HomeComponent }
 ]
 @NgModule({
   imports: [
