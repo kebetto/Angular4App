@@ -28,7 +28,7 @@ import {AuthService} from './auth.service';
     </div>
   </div>
   `,
-  styles:['.panel{width: 60%; margin-top: 100px}'+ 
+  styles:['.panel{width: 60%;}'+ 
           '.panel-heading{background-color: #2c3e50; color: #fff; '+
           'text-align: center}']
 })

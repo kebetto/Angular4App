@@ -20,12 +20,6 @@ declare var _: _.UnderscoreStatic;
             border-color: #ecf0f1; 
             color: #2c3e50;
         }
-        .info{
-         background: #2c3e50;
-        }
-        img{
-            border-radius: 50%
-        }
     `]
 })
 export class PostsComponent implements OnInit, OnDestroy {
@@ -97,10 +91,9 @@ export class PostsComponent implements OnInit, OnDestroy {
     } 
     
 	onPageChanged(page : number) {
-        this.currentPost = null;
-        //displays the next 10 apges, if any
-        var startIndex = (page - 1) * this.pageSize;
-        this.pagedPosts = _.take(_.rest(this.posts, startIndex), this.pageSize);
+      //displays the next 10 apges, if any
+      var startIndex = (page - 1) * this.pageSize;
+      this.pagedPosts = _.take(_.rest(this.posts, startIndex), this.pageSize);
 	}
 
   ngOnDestroy() {
